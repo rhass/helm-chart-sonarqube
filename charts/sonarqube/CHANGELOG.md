@@ -1,6 +1,9 @@
 # SonarQube Chart Changelog
 All changes to this chart will be documented in this file.
 
+## [10.3.0.1]
+ * Revert 221578a9fafa28912a81e58800fb0c84c2f9ce74
+
 ## [10.3.0]
 * Upgrade SonarQube to 10.3.0
 * Update Chart's version to 10.3.0

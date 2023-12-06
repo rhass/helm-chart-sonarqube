@@ -42,6 +42,7 @@ annotations:
       description: "Remove the nginx-proxy-body annotation when nginx is disabled"
     - kind: changed
       description: "Enable post-upgrade in the change-admin-password hook"
+<<<<<<< HEAD
     - kind: changed
       description: "Update default ContainerSecurityContext, InitContainerSecurityContext and postgresql.securityContext to match restricted podSecurityStandard"
     - kind: changed
@@ -60,6 +61,8 @@ annotations:
       description: "Deprecate embedded PostgreSQL"
     - kind: changed
       description: "Update nginx-ingress-controller dependency to version 4.8.3, please carefully read the changelog of this new major version."
+=======
+>>>>>>> parent of 221578a (SONAR-20810 change default security context value to comply with pod security standard restricted (#374))
   artifacthub.io/containsSecurityUpdates: "false"
   artifacthub.io/images: |
     - name: sonarqube
